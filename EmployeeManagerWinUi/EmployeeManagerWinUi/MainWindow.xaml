@@ -61,8 +61,16 @@
                 Margin="10"
                 HorizontalAlignment="Stretch"
                 Header="Job Role" />
-            <CheckBox Grid.Row="3" Content="Is Coffe drinker" Margin="10"/>
-            <Button Grid.Row="4" Content="Save" Margin="10,10,10,30" VerticalAlignment="Bottom" HorizontalAlignment="Left"
+            <CheckBox
+                Grid.Row="3"
+                Margin="10"
+                Content="Is Coffe drinker" />
+            <Button
+                Grid.Row="4"
+                Margin="10,10,10,30"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Bottom"
+                Content="Save" />
         </Grid>
 
     </Grid>
