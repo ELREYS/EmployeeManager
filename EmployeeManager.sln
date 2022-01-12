@@ -11,7 +11,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{
 EndProject
 Project("{C7167F0D-BC9F-4E6E-AFE1-012C56B48DB5}") = "EmployeeManagerWinUi (Package)", "EmployeeManagerWinUi\EmployeeManagerWinUi (Package)\EmployeeManagerWinUi (Package).wapproj", "{5899B8B5-83CB-4510-8558-70519295BDCE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeManagerWinUi", "EmployeeManagerWinUi\EmployeeManagerWinUi\EmployeeManagerWinUi.csproj", "{BA190C5C-F0FA-442E-ADB1-03112A2F1D9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeManagerWinUi", "EmployeeManagerWinUi\EmployeeManagerWinUi\EmployeeManagerWinUi.csproj", "{BA190C5C-F0FA-442E-ADB1-03112A2F1D9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeManager.ViewModel", "EmployeeManager.ViewModel\EmployeeManager.ViewModel.csproj", "{6B2AC891-30F1-42E0-BD1A-92A284F2F00E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,22 @@ Global
 		{BA190C5C-F0FA-442E-ADB1-03112A2F1D9F}.Release|x64.Build.0 = Release|x64
 		{BA190C5C-F0FA-442E-ADB1-03112A2F1D9F}.Release|x86.ActiveCfg = Release|x86
 		{BA190C5C-F0FA-442E-ADB1-03112A2F1D9F}.Release|x86.Build.0 = Release|x86
+		{6B2AC891-30F1-42E0-BD1A-92A284F2F00E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B2AC891-30F1-42E0-BD1A-92A284F2F00E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B2AC891-30F1-42E0-BD1A-92A284F2F00E}.Debug|arm64.ActiveCfg = Debug|Any CPU
+		{6B2AC891-30F1-42E0-BD1A-92A284F2F00E}.Debug|arm64.Build.0 = Debug|Any CPU
+		{6B2AC891-30F1-42E0-BD1A-92A284F2F00E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{6B2AC891-30F1-42E0-BD1A-92A284F2F00E}.Debug|x64.Build.0 = Debug|Any CPU
+		{6B2AC891-30F1-42E0-BD1A-92A284F2F00E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6B2AC891-30F1-42E0-BD1A-92A284F2F00E}.Debug|x86.Build.0 = Debug|Any CPU
+		{6B2AC891-30F1-42E0-BD1A-92A284F2F00E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B2AC891-30F1-42E0-BD1A-92A284F2F00E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B2AC891-30F1-42E0-BD1A-92A284F2F00E}.Release|arm64.ActiveCfg = Release|Any CPU
+		{6B2AC891-30F1-42E0-BD1A-92A284F2F00E}.Release|arm64.Build.0 = Release|Any CPU
+		{6B2AC891-30F1-42E0-BD1A-92A284F2F00E}.Release|x64.ActiveCfg = Release|Any CPU
+		{6B2AC891-30F1-42E0-BD1A-92A284F2F00E}.Release|x64.Build.0 = Release|Any CPU
+		{6B2AC891-30F1-42E0-BD1A-92A284F2F00E}.Release|x86.ActiveCfg = Release|Any CPU
+		{6B2AC891-30F1-42E0-BD1A-92A284F2F00E}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -100,6 +118,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{A425173A-C3F9-4251-AFF9-7E95BD7B4BBA} = {DD912DD1-7B66-4245-BD63-C01207561341}
 		{A4D5CF54-E102-45EE-A686-030D64246202} = {DD912DD1-7B66-4245-BD63-C01207561341}
+		{6B2AC891-30F1-42E0-BD1A-92A284F2F00E} = {DD912DD1-7B66-4245-BD63-C01207561341}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8D719E33-FCFD-4644-95C9-2842C22D405F}

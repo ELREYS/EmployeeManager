@@ -2,12 +2,14 @@
     x:Class="EmployeeManagerWinUi.MainWindow"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:controls="using:EmployeeManagerWinUi.Controls"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:local="using:EmployeeManagerWinUi"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="Black">
+
+    <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
             <RowDefinition />
@@ -17,19 +19,7 @@
             <ColumnDefinition />
         </Grid.ColumnDefinitions>
         <!--  Header  -->
-        <Border Grid.ColumnSpan="2" Background="#F05A28">
-            <StackPanel HorizontalAlignment="Center" Orientation="Horizontal">
-                <Image
-                    Height="90"
-                    Margin="5"
-                    Source="/Images/logo.png" />
-                <TextBlock
-                    VerticalAlignment="Center"
-                    FontSize="40"
-                    Text="Employee Manager" />
-            </StackPanel>
-        </Border>
-
+        <controls:HeaderControl Grid.ColumnSpan="2" />
         <!--  Navigation  -->
 
         <Grid Grid.Row="1" Grid.Column="0">
